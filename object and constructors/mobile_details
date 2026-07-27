@@ -31,11 +31,12 @@ class Mobile {
         System.out.println("Model    : " + model);
         System.out.println("Price    : " + price);
         System.out.println("Quantity : " + quantity);
-        System.out.println("----------------------------");
+       
     }
 }
 
 public class mobile_details {
+
 
     public static void main(String[] args) {
 
