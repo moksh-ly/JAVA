@@ -1,4 +1,4 @@
-class mycalc {
+class MyCalc {
     int num1 = 40;
     int num2 = 9;
 
@@ -9,7 +9,7 @@ class mycalc {
 
     void sub() {
         int diff = num1 - num2;
-        System.out.println("Subtraction: " + difference);
+        System.out.println("Subtraction: " + diff);
     }
 
     void mul() {
@@ -17,15 +17,16 @@ class mycalc {
         System.out.println("Multiplication: " + product);
     }
 
-     void divide() {
+    void divide() {
         int div = num1 / num2;
-        System.out.println("Division: " + division);
+        System.out.println("Division: " + div);
     }
 }
-public class Calculator{
 
+public class basic_calculator {
     public static void main(String[] args) {
         MyCalc m = new MyCalc();
+
         m.add();
         m.sub();
         m.mul();
