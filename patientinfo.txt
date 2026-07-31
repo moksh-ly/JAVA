@@ -1,0 +1,5 @@
+PATIENT DETAILS
+Name: Moksh nagori
+Patient ID: 20541
+Age: 42
+Diagnosis: Under Observation

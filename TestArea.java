@@ -1,3 +1,4 @@
+
 import area.SquareArea;
 import area.RectangleArea;
 

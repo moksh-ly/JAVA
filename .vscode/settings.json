@@ -1,7 +1,9 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "try_catch_exp",
         "throw_throws_15",
+        "swingg",
         "primitive_wrapping.java",
         "object and constructors",
         "method overloading",
@@ -10,10 +12,11 @@
         "inheritance.java",
         "final",
         "basics codes of java",
+        "actionlistner",
         "abstract class",
         "INteerface",
         "ASSIGNMENT5",
         "ANONYMOUS_INNER",
-        "swingg"
+        "13a"
     ]
 }
