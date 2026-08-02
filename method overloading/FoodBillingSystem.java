@@ -1,7 +1,5 @@
 class FoodOrder {
-
     static int orderCount = 0;
-
     // Dine-in Order
     void generateBill(double price) {
         orderCount++;
