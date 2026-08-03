@@ -10,7 +10,7 @@ public class studentCourse {
         int choice = 0;
 
         while (choice != 4) {
-            System.out.println("\n========== COURSE REGISTRATION ==========");
+            System.out.println("\n COURSE REGISTRATION ");
             System.out.println("1. Register a Course");
             System.out.println("2. Drop a Course");
             System.out.println("3. Show Registered Courses");
@@ -47,7 +47,7 @@ public class studentCourse {
                     System.out.println("No registered courses found.");
                 } else {
                     StringBuffer sb = new StringBuffer();
-                    sb.append("\n------ REGISTERED COURSES ------\n");
+                    sb.append("\n REGISTERED COURSES \n");
 
                     for (int i = 0; i < courses.size(); i++) {
                         sb.append((i + 1) + ". " + courses.get(i) + "\n");
