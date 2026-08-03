@@ -12,7 +12,7 @@ class child extends parent{
     void showchild(){
         System.out.println("show child");
     }
-}
+} //multilevel inheritance
 public class inheritance{
     public static void main(String args[]){
         child c=new child();
