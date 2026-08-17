@@ -12,7 +12,7 @@ class DineInOrder extends FoodOrder {
         double total = foodPrice + serviceCharge;
 
         System.out.println("Dine-In Order");
-        System.out.println("Total Bill: ₹" + total);
+        System.out.println("Total Bill: " + total);
     }
 }
 
@@ -25,7 +25,7 @@ class TakeAwayOrder extends FoodOrder {
         double total = foodPrice + packingCharge;
 
         System.out.println("Take-Away Order");
-        System.out.println("Total Bill: ₹" + total);
+        System.out.println("Total Bill: " + total);
     }
 }
 
