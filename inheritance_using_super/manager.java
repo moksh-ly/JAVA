@@ -26,7 +26,7 @@ class Manager extends Employee {
     }
 }
 
-public class Main {
+public class manager {
     public static void main(String[] args) {
         Manager m = new Manager();
         m.display();
