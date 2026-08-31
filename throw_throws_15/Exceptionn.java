@@ -1,5 +1,5 @@
 
-class Exception {
+class Exceptionn {
     static void fun()
     {
         try{
