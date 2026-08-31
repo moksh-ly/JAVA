@@ -16,7 +16,7 @@ class LibraryBook {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Price: " + price);
-    }
+    }c
 }
 
 class LibraryBookManagementDemo {

@@ -1,6 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "try_catch",
         "primitive_wrapping.java",
         "object and constructors",
         "method overloading",
@@ -9,8 +10,9 @@
         "inheritance.java",
         "final",
         "basics codes of java",
+        "abstract class",
         "ASSIGNMENT5",
         "ANONYMOUS_INNER",
-        "abstract class"
+        "throw_throws_15"
     ]
 }
