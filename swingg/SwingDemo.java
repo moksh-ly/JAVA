@@ -1,6 +1,6 @@
 
-import java.swing.Jframe;
-import java.swing.JLabel;
+import javax.swing.Jframe;
+import javax.swing.JLabel;
 
 public class SwingDemo {
     public static void main(String[] args) {
