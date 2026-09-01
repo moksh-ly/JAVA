@@ -1,5 +1,5 @@
 
-import javax.swing.Jframe;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class SwingDemo {
