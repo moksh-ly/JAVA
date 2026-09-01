@@ -1,44 +1,34 @@
-abstract class FoodOrder {
-
-    abstract void calculateBill();
-}
-
-class DineInOrder extends FoodOrder {
-
-    @Override
-    void calculateBill() {
-        double foodPrice = 500;
-        double serviceCharge = 50;
-
-        double total = foodPrice + serviceCharge;
-
-        System.out.println("Dine in Order");
-        System.out.println("Total bill: " + total);
+abstract class orders{
+    abstract void calculateBill();  
+    double foodcost;
+    public orders(double foodcost){
+        this.foodcost=foodcost;
     }
 }
 
-class TakeAwayOrder extends FoodOrder {
-
-    @Override
-    void calculateBill() {
-        double foodPrice = 500;
-        double packingCharge = 30;
-
-        double total = foodPrice + packingCharge;
-
-        System.out.println("Take away Order");
-        System.out.println("total bill: " + total);
+class dinein extends orders{
+    public dinein(double foodcost){
+        super(foodcost);
+    }
+    void calculateBill(){
+        double totalbill=foodcost+foodcost*0.05;
+        System.out.println("Total bill for dine-in order: "+totalbill);
     }
 }
-
+class ordertakeaway extends orders{
+    public ordertakeaway(double foodcost){
+        super(foodcost);
+    }
+    void calculateBill(){
+        double totalbill=foodcost+foodcost*0.02;
+        System.out.println("Total bill for takeaway order: "+totalbill);
+    }
+}
 public class FoodOrderDemo {
-
     public static void main(String[] args) {
-
-        FoodOrder order1 = new DineInOrder();
-        order1.calculateBill();
-
-        FoodOrder order2 = new TakeAwayOrder();
-        order2.calculateBill();
+        dinein dineinorder=new dinein(100);
+        ordertakeaway takeawayorder=new ordertakeaway(100);
+        dineinorder.calculateBill();
+        takeawayorder.calculateBill();
     }
 }

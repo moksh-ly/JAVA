@@ -26,6 +26,6 @@ public class InterfaceDemo {
         s.printDetails();
         e.printDetails();
     }
-} {
+ 
     
 }
