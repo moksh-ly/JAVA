@@ -12,7 +12,7 @@ public class Client {
 
             Socket socket = new Socket("localhost", 5000);
 
-            BufferedReader input = new BufferedReader(
+            BufferedReader input = new BufferedReader(ww
                     new InputStreamReader(socket.getInputStream()));
 
             PrintWriter output = new PrintWriter(
